@@ -14,8 +14,8 @@ public class Picture
     private Square wall;
     private Square window;
     private Triangle roof;
-    private Circle sun;
     private Square campo;
+    private Circle sun;
     /**
      * Constructor for objects of class Picture
      */
@@ -23,7 +23,15 @@ public class Picture
     {
         // nothing to do... instance variables are automatically set to null
     }
-
+    
+    public void atardecer()
+    {
+        sun.slowMoveVertical(160);
+    
+    
+    
+    }
+    
     /**
      * Draw this picture.
      */
